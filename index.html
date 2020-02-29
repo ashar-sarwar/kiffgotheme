@@ -5,12 +5,13 @@
       <title>Some Web Page</title>
       <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900&display=swap" rel="stylesheet">
       <link rel='stylesheet' href='styles.css'/>
+      <meta name="viewport" content="width=device-width,user-scalable=1">
    </head>
    <body>
       <div class="container">
          <div class="navbar d-flex">
             <!-- <div class="title">KIFFGO</div> -->
-            <img class="logo" src="images/logo.png">
+            <div><img class="logo" src="images/logo.png"></div>
             <div class="logsign d-flex">
                <button class="signup">
                SignUp
@@ -37,8 +38,9 @@
             </button>
          </div>
       </div>
+      <section>
       <div class="container">
-         <div class="d-flex" style="margin-top: 100px;">
+         <div class="d-flex removeflex" style="margin-top: 100px;">
             <div style="padding:12px;">
                <img class="imageSpaceMiddle" src="images/ondemand.svg">
                <p class="middlehead">On Demand</p>
@@ -65,6 +67,7 @@
             </div>
          </div>
       </div>
+   </section>
       <div class="container">
          <div class="lowermiddle">
             <div class="lowermiddlecontent d-flex row">
@@ -75,7 +78,7 @@
                   </p>
                </div>
                <div class="middleImage">
-                  <img src="images/getcourier.jpg">
+                  <img class="middlewidth" src="images/getcourier.jpg">
                </div>
             </div>
             <div class=" lowermiddlecontent d-flex row" style="flex-direction: row-reverse">
@@ -86,7 +89,7 @@
                   </p>
                </div>
                <div class="middleImage">
-                  <img src="images/followorders.jpg">
+                  <img class="middlewidth"  src="images/followorders.jpg">
                </div>
             </div>
             <div class="lowermiddlecontent d-flex row">
@@ -97,7 +100,7 @@
                   </p>
                </div>
                <div class="middleImage">
-                  <img src="images/trackingminutes.jpg">
+                  <img class="middlewidth"  src="images/trackingminutes.jpg">
                </div>
             </div>
          </div>
@@ -109,43 +112,104 @@
                <p class="whykiffgo">Why Kiffgo</p>
             </div>
             <div class="d-flex lowerlowercontent">
-               <div >
+
+               
+                  <div class="content">
                   <img class="lowerlowerimage" src="images/livetracking.svg">
                   <p class="lowerlowertitle">Live Tracking</p>
-                  <p style="font-weight: 550; padding:10px"> Lorem ipsum dolor sit amet consectetur 
+                  <p class="lowerpara"> Lorem ipsum dolor sit amet consectetur 
                      adipisicing elit. Ea, qui.Assumenda non 
                      similique at id sunt beatae facilis exc
                      dolor maiores quasi totam, eveniet repellend
                   </p>
                </div>
-               <div>
+               <div class="content">
                   <img class="lowerlowerimage" src="images/easyintegration.svg">
                   <p class="lowerlowertitle">Easy integration</p>
-                  <p style="font-weight: 550;padding:10px">Lorem ipsum dolor sit amet consectetur 
+                  <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
                      adipisicing elit. Ea, qui.Assumenda non 
                      similique at id sunt beatae facilis exc
                      dolor maiores quasi totam, eveniet repellend
                   </p>
                </div>
-               <div>
+            
+               <div class="content">  
                   <img class="lowerlowerimage" src="images//professionalfleet.svg">
                   <p class="lowerlowertitle">Professional Fleet</p>
-                  <p style="font-weight: 550;padding:10px">Lorem ipsum dolor sit amet consectetur 
+                  <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
                      adipisicing elit. Ea, qui.Assumenda non 
                      similique at id sunt beatae facilis exc
                      dolor maiores quasi totam, eveniet repellend
                   </p>
                </div>
-               <div>
+               <div class="content">
                   <img class="lowerlowerimage" src="images/livesupport.svg">
                   <p class="lowerlowertitle">Live Support</p>
-                  <p style="font-weight: 550;padding:10px">Lorem ipsum dolor sit amet consectetur 
+                  <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
                      adipisicing elit. Ea, qui.Assumenda non 
                      similique at id sunt beatae facilis exc
                      dolor maiores quasi totam, eveniet repellend
                   </p>
                </div>
             </div>
+
+
+
+
+<!-- for media query 1024 starts -->
+            <!-- <div class="d-flex lowerlowercontentanother">              
+               <div >
+                  <div >
+               <img class="lowerlowerimage" src="images/livetracking.svg">
+               <p class="lowerlowertitle">Live Tracking</p>
+               <p class="lowerpara"> Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Ea, qui.Assumenda non 
+                  similique at id sunt beatae facilis exc
+                  dolor maiores quasi totam, eveniet repellend
+               </p>
+            </div>
+            <div>
+               <img class="lowerlowerimage" src="images/easyintegration.svg">
+               <p class="lowerlowertitle">Easy integration</p>
+               <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Ea, qui.Assumenda non 
+                  similique at id sunt beatae facilis exc
+                  dolor maiores quasi totam, eveniet repellend
+               </p>
+            </div>
+         </div>
+         
+            <div>
+               <div>
+               <img class="lowerlowerimage" src="images//professionalfleet.svg">
+               <p class="lowerlowertitle">Professional Fleet</p>
+               <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Ea, qui.Assumenda non 
+                  similique at id sunt beatae facilis exc
+                  dolor maiores quasi totam, eveniet repellend
+               </p>
+            </div>
+            <div>
+               <img class="lowerlowerimage" src="images/livesupport.svg">
+               <p class="lowerlowertitle">Live Support</p>
+               <p class="lowerpara">Lorem ipsum dolor sit amet consectetur 
+                  adipisicing elit. Ea, qui.Assumenda non 
+                  similique at id sunt beatae facilis exc
+                  dolor maiores quasi totam, eveniet repellend
+               </p>
+            </div>
+            </div>
+
+         </div> -->
+<!-- for media query 1024 ends-->
+
+
+
+
+
+
+
+
          </div>
       </section>
       <section >
@@ -206,13 +270,78 @@
                      </p>
                   </div>
                </div>
+            
+
+
+<!-- for media query 1024 starts
+<div class="d-flex lowerlastpart2another">
+
+   <div>
+   <div class="vanCol">
+      <img class="lowerlastimage" src="images/cargobike.png">
+      <h2>Cargo Bike</h2>
+      <p class="lowerlasttext">Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. 
+         Vero libero possimus necessitat
+         tempore aut rem, nulla itaque ex 
+      </p>
+   </div>
+   <div class="vanCol">
+      <img class="lowerlastimage" src="images/smallvan.png">
+      <h2>Small Van</h2>
+      <p class="lowerlasttext">Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. 
+         Vero libero possimus necessitat
+         tempore aut rem, nulla itaque ex 
+      </p>
+   </div>
+
+   <div class="vanCol">
+      <img class="lowerlastimage" src="images/mediumvan.png">
+      <h2>Medium Van</h2>
+      <p class="lowerlasttext"> Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. 
+         Vero libero possimus necessitat
+         tempore aut rem, nulla itaque ex 
+      </p>
+   </div>
+</div>
+
+<div>
+   <div class="vanCol">
+      <img class="lowerlastimage" src="images/largevan.png">
+      <h2>Large Van</h2>
+      <p class="lowerlasttext">Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. 
+         Vero libero possimus necessitat
+         tempore aut rem, nulla itaque ex 
+      </p>
+   </div>
+   <div class="vanCol">
+      <img class="lowerlastimage" src="images/xl-lutonvan.png">
+      <h2>XL-Luton Van</h2>
+      <p class="lowerlasttext">Lorem ipsum dolor sit amet 
+         consectetur adipisicing elit. 
+         Vero libero possimus necessitat
+         tempore aut rem, nulla itaque ex 
+      </p>
+   </div>
+</div>
+
+
+</div>
+
+<!-- for media query 1024 ends -->
+ 
+
+
             </div>
          </div>
       </section>
-      <section>
+      <section class="tableSection">
          <div class="container">
             <div class="d-flex table">
-               <img class="tableimage" src="images/tableimage.svg">
+            <img  class="tableimage" src="images/tableimage.svg">
                <div class="lowerLastTable">
                   <div class="tableIntro" >
                      <p class="hearFromYou">We'd love to get in touch with you!</p>
@@ -280,7 +409,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="company-part">
+        <div class="company-part">
                      <p class="title-style">Company</p>
                      <div class="item-spacing">
                         <div>
@@ -303,17 +432,31 @@
                      </div>
                   </div>
                </div>
+            </div>
          </section>
          </div>
          <section class="footer-wrapper2">
             <div class="container">
             <div class="d-flex footerpart2">
-            <div >
+            <div>
                <p class="lastline">Kiffgo Ltd 2019(company number 10910123). All rights reserved</p>
                <div>
                   <p >Kiffgo Ltd 2019(company number 10910123). All rights reserved GUI wsdvdsvs</p>
                </div>
             </div>
+        </div>
+        <div class="showfooter">
+         <p class="extraline">Kiffgo Ltd 2019(company number 10910123). All rights reserved</p>
+        </div>
+
+<div class="showmobilefooter">
+  <div> <h1>
+   KIFFGO
+   </h1></div>
+<p> All rights reserved</p>
+</div>
+
+    </div>
          </section>
       </footer>
    </body>
